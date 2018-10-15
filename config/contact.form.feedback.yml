@@ -1,0 +1,14 @@
+uuid: dbc27460-c202-4479-bfd3-a146d0da7449
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - jpitassi@stauffer.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
