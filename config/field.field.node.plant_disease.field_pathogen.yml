@@ -1,0 +1,29 @@
+uuid: f3f07a4c-8a4e-4d2d-b6d2-2f62c94ac7b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pathogen
+    - node.type.plant_disease
+    - taxonomy.vocabulary.pathogen
+id: node.plant_disease.field_pathogen
+field_name: field_pathogen
+entity_type: node
+bundle: plant_disease
+label: Pathogen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pathogen: pathogen
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

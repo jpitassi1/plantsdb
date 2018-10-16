@@ -1,0 +1,20 @@
+uuid: 5f9ed229-4864-49a1-834b-a98366cc1068
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_host_latin
+field_name: field_host_latin
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

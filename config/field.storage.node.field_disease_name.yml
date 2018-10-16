@@ -1,0 +1,20 @@
+uuid: cdada0da-7b7a-488c-840a-cdf12d190ae3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_disease_name
+field_name: field_disease_name
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

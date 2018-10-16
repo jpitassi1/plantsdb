@@ -1,0 +1,29 @@
+uuid: b83a96ed-3bde-4d56-9a91-115ae29b1eae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_disease_name
+    - node.type.plant_disease
+    - taxonomy.vocabulary.disease_name
+id: node.plant_disease.field_disease_name
+field_name: field_disease_name
+entity_type: node
+bundle: plant_disease
+label: 'Disease Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      disease_name: disease_name
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

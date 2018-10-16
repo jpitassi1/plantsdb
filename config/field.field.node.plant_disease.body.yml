@@ -1,0 +1,22 @@
+uuid: 0aa1a92c-ca12-40a9-b706-152632ae820b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.plant_disease
+  module:
+    - text
+id: node.plant_disease.body
+field_name: body
+entity_type: node
+bundle: plant_disease
+label: Caption
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

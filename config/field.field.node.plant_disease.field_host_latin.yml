@@ -1,0 +1,29 @@
+uuid: db1f2594-82e9-4202-8082-2b88f68b6655
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_host_latin
+    - node.type.plant_disease
+    - taxonomy.vocabulary.host_latin
+id: node.plant_disease.field_host_latin
+field_name: field_host_latin
+entity_type: node
+bundle: plant_disease
+label: 'Host Latin'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      host_latin: host_latin
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

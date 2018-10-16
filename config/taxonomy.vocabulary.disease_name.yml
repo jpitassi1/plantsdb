@@ -1,0 +1,9 @@
+uuid: 5da4e7f1-c54d-43c9-92bc-dce697f47fb6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Disease Name'
+vid: disease_name
+description: ''
+hierarchy: 0
+weight: 0
