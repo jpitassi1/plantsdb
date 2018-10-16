@@ -1,0 +1,9 @@
+uuid: 8a5b503c-63af-4250-8110-e42fc4aeb4e6
+langcode: en
+status: true
+dependencies: {  }
+name: Pathogen
+vid: pathogen
+description: ''
+hierarchy: 0
+weight: 0

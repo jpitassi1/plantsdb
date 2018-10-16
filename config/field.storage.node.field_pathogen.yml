@@ -1,0 +1,20 @@
+uuid: a9b7cdca-19f6-4a0d-b9d5-076023d92835
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_pathogen
+field_name: field_pathogen
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

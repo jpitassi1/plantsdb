@@ -1,0 +1,30 @@
+uuid: 5602acca-cc4f-4bb9-86cc-84cf5a8b1293
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.plant_disease.body
+    - node.type.plant_disease
+  module:
+    - text
+    - user
+id: node.plant_disease.teaser
+targetEntityType: node
+bundle: plant_disease
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,29 @@
+uuid: 441de704-5bab-4e90-a45f-fe1d044a72cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_path_synonym
+    - node.type.plant_disease
+    - taxonomy.vocabulary.path_synonym
+id: node.plant_disease.field_path_synonym
+field_name: field_path_synonym
+entity_type: node
+bundle: plant_disease
+label: 'Path Synonym'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      path_synonym: path_synonym
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
